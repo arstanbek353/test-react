@@ -1,0 +1,37 @@
+.App {
+    height: 100vh;
+    display: flex;
+    &__sidebar {
+        flex-shrink: 0;
+        height: 100vh;
+        overflow: auto;
+        background-color: #9eeaf9;
+    }
+    &__inner {
+        flex-grow: 1;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    &__header {
+        flex-shrink: 0;
+        width: 100%;
+        padding: 20px 30px;
+        background-color: #efadce;
+        background-color: #6ea8fe;
+    }
+    &__filter {
+        width: 100%;
+        flex-shrink: 0;
+        padding: 10px 30px;
+        background-color: #9ec5fe;
+        background-color: #cfe2ff;
+        border-bottom: 1px solid crimson;
+    }
+    &__content {
+        overflow: auto;
+        flex-grow: 1;
+        padding: 50px 30px;
+        background-color: #cfe2ff;
+    }
+}

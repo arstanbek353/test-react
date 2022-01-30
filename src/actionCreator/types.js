@@ -1,0 +1,6 @@
+export const GET_CUSTOMERS = 'GET_CUSTOMERS'
+export const GET_POSTS = 'GET_POSTS'
+export const GET_COMMENTS = 'GET_COMMENTS'
+export const GET_MENU = 'GET_MENU'
+export const GET_ACCOUNT = 'GET_ACCOUNT'
+export const LOADING = 'LOADING'

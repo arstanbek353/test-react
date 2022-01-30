@@ -1,0 +1,21 @@
+.Header {
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__accout {
+        font-weight: bold;
+        font-style: italic;
+        display: flex;
+        align-items: center;
+    }
+    &__avatar {
+        margin-left: 10px;
+        img {
+            width: 25px;
+            height: 25px;
+            object-fit: contain;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.Filter {
+    &__header {
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__open {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &__inner {
+        padding-top: 10px;
+        &:empty {
+            display: none;
+        }
+    }
+}
